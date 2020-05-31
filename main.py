@@ -4,7 +4,7 @@ import config
 
 def main():
     bot = VkBot(config.token, config.group_id)
-    bot.start(
+    bot.start()
 
 
 if __name__ == '__main__':
