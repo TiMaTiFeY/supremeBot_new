@@ -106,7 +106,6 @@ class VkBot:
 
     def _command_mafia(self, event, user_permission):
         msg = event.obj['message']['text']
-        from_id = event.obj['message']['from_id']
         peer_id = event.obj['message']['peer_id']
         if user_permission.value >= Commands.respect.value[0].value:
             other_part = list(map(int, msg.split(' ')[1::]))
