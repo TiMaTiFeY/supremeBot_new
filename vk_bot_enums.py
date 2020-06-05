@@ -29,10 +29,6 @@ USER_TYPES = {
 class Commands(Enum):
     respect = [UserType.simple, ["respect", "одобряю", "уважаю"]]
 
-    votekick = [UserType.simple, ["votekick"]]
-
-    kick = [UserType.moder, ["kick"]]
-
     mafia = [UserType.simple, ['mafia', 'мафия']]
 
 
